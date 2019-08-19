@@ -23,14 +23,14 @@ ASCIIpy is a simple to use command line tool that helps you to convert an input 
 #### Original
 ![Original Car](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/in/car.jpg)
 #### ASCII
-[![ASCII-Art Car](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/car.jpg)]()
+![ASCII-Art Car](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/car.jpg)]
 ### Girl
 #### Original
 ![Original Girl](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/in/girl.jpg)
 #### ASCII
-[![ASCII-Art Girl](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/girl.jpg)]()
+![ASCII-Art Girl](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/girl.jpg)]
 ### Girl
 #### Original
 ![Original Pineapple](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/in/pineapple.jpg)
 #### ASCII
-[![ASCII-Art Pineapple](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/pineapple.jpg)]()
+![ASCII-Art Pineapple](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/pineapple.jpg)]
