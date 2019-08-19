@@ -46,11 +46,11 @@ def downscale_image(image, max_width):
     return img.resize((current_img_width, current_img_height))
 
 
-def create_ascii_matrix(image, max_with, method="luminosity"):
+def create_ascii_matrix(image, max_width, method="luminosity"):
     print("Image {} loaded successfully...".format(IMAGE))
     print("Image size: {}x{}".format(image.width, image.height))
     print("Image format: {} ; Image mode: {}".format(image.format, image.mode))
-    image = downscale_image(image, max_with)
+    image = downscale_image(image, max_width)
     print("Image size after downscaling: {}x{}".format(image.width, image.height))
 
     pixel_matrix = numpy.asarray(image)
@@ -100,20 +100,22 @@ if __name__ == '__main__':
     ascii_matrix = create_ascii_matrix(img, 300, METHOD)
 
     if img:
-        f = open(OUT_PATH.split(".")[0] + ".html", "w+")
-        f.write('<html style="background-color: #0b0d0a;">\r\n<head>\r\n<style>\r\n'  # alt: #664A46 ; #BAA87E
-                + '.rainbow {'
-                + 'background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), '
-                + 'color-stop(0.15, #f2f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), '
-                + 'color-stop(0.9, #ff2), color-stop(1, #f22) );'
-                  'background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f)'
-                + ', color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), '
-                + 'color-stop(0.9, #ff2), color-stop(1, #f22) );'
-                  'color: transparent;'
-                  '-webkit-background-clip: text;'
-                  'background-clip: text;'
-                  '</style>\r\n</head>\r\n'
-                '<pre style="font-family: monospace;line-height: 4px; font-size: 4px;" class="rainbow">\r\n')
+        f = open((OUT_PATH.split(".")[0] + ".html"), "w+", encoding="utf-8")
+        f.write('<html style="background-color: #0b0d0a;">\r\n<head>\r\n'
+                '<meta charset="UTF-8">\r\n'
+                '<style>\r\n'  # alt: #664A46 ; #BAA87E
+                '.rainbow {'
+                'background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), '
+                'color-stop(0.15, #f2f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), '
+                'color-stop(0.9, #ff2), color-stop(1, #f22) );'
+                'background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f)'
+                ', color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), '
+                'color-stop(0.9, #ff2), color-stop(1, #f22) );'
+                'color: transparent;'
+                '-webkit-background-clip: text;'
+                'background-clip: text;}\r\n'
+                '</style>\r\n</head>\r\n'
+                '<pre style="font-family: monospace;line-height: 3px; font-size: 3px;" class="rainbow">\r\n')
         for r in ascii_matrix:
             line = ""
             for p in r:
