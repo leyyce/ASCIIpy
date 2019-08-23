@@ -113,7 +113,8 @@ if __name__ == '__main__':
                 'color-stop(0.9, #ff2), color-stop(1, #f22) );'
                 'color: transparent;'
                 '-webkit-background-clip: text;'
-                'background-clip: text;}\r\n'
+                'background-clip: text;'
+                'width: max-content;}\r\n'
                 '</style>\r\n</head>\r\n'
                 '<pre style="font-family: monospace;line-height: 3px; font-size: 3px;" class="rainbow">\r\n')
         for r in ascii_matrix:
