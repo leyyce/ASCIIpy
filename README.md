@@ -18,24 +18,24 @@ ASCIIpy is a simple to use command line tool that helps you to convert an input 
 ```
 5. The output html and jpg files will be written to the ```out``` folder and are named the same as the input file
 
-## Examples (For the html preview download the files for now thinking about a way how to link them here as online version but for now thats not possible.)
+## Examples
 ### Car
 #### Original
 ![Original Car](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/in/car.jpg)
-#### ASCII
+#### ASCII [[HTML Preview]](http://htmlpreview.github.io/?https://github.com/ElCap1tan/ASCIIpy/blob/master/out/examples/car.html)
 ![ASCII-Art Car](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/car.jpg)
 ### Eye
 #### Original
 ![Original Eye](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/in/eye.jpg)
-#### ASCII
+#### ASCII [[HTML Preview]](http://htmlpreview.github.io/?https://github.com/ElCap1tan/ASCIIpy/blob/master/out/examples/eye.html)
 ![ASCII-Art Eye](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/eye.jpg)
 ### Girl
 #### Original
 ![Original Girl](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/in/girl.jpg)
-#### ASCII
+#### ASCII [[HTML Preview]](http://htmlpreview.github.io/?https://github.com/ElCap1tan/ASCIIpy/blob/master/out/examples/girl.html)
 ![ASCII-Art Girl](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/girl.jpg)
-### Girl
+### Pineapple
 #### Original
 ![Original Pineapple](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/in/pineapple.jpg)
-#### ASCII
+#### ASCII [[HTML Preview]](http://htmlpreview.github.io/?https://github.com/ElCap1tan/ASCIIpy/blob/master/out/examples/pineapple.html)
 ![ASCII-Art Pineapple](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/pineapple.jpg)
