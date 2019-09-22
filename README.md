@@ -1,8 +1,6 @@
 # ASCIIpy
 ![Console-Demo](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/demo.gif)
 
-![ASCII-Art](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/thefuck_cap.jpg)
-
 ASCIIpy is a simple to use command line tool that helps you to convert an input image into ascii art. For the moment the scrip will print the ascii art to the console (dependent on your src image size you might need to change the text size to something very small if you want to view it in the console) and generate a html and jpg file containing the ascii art all at once for every file you call it with. But I will look into a way how you can call the scrip with some more specific task and more options at hand
 
 ## Installation and dependencies
@@ -24,6 +22,8 @@ where
 * The **--rainbow** argument doesn't do anything at the moment. Image will be in grayscale HTML in color by default.
 
 *The output html and jpg files will be written to the ```out``` folder and are named the same as the input file*
+
+![ASCII-Art](https://raw.githubusercontent.com/ElCap1tan/ASCIIpy/master/out/examples/thefuck_cap.jpg)
 
 ## Examples
 ### Car
